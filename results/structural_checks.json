@@ -1,0 +1,100 @@
+{
+  "symbolic": {
+    "status": "PASS",
+    "identities": {
+      "integrable_radial_n1_residual": "0",
+      "integrable_radial_n2_residual": "0",
+      "critical_flux_divergence": "-b*h11 - b*h22",
+      "front_viscosity_polynomial": "-alpha**2*theta*(theta - 1)",
+      "channel_zero_flux_m_3over2_residual": "0",
+      "normalizing_scale_relations": "PASS; derivative terms are retained in the analytical equation"
+    }
+  },
+  "corrected_channel_profile": {
+    "status": "PASS",
+    "cases": [
+      {
+        "m": 1.5,
+        "edge_flux": 0.1,
+        "amplitude": 13.826169684834607,
+        "width": 7.332463745457272,
+        "integral_w": 40.68973357787311,
+        "integral_w_to_1_over_m": 20.29486678893644,
+        "corrected_mass_identity_residual": 2.3447910280083306e-13
+      },
+      {
+        "m": 1.5,
+        "edge_flux": 1.0,
+        "amplitude": 14.036643390947274,
+        "width": 5.80331152074532,
+        "integral_w": 40.05769700005341,
+        "integral_w_to_1_over_m": 19.52884850002653,
+        "corrected_mass_identity_residual": 3.481659405224491e-13
+      },
+      {
+        "m": 1.5,
+        "edge_flux": 10.0,
+        "amplitude": 24.219141272515152,
+        "width": 3.1210444815865044,
+        "integral_w": 45.953188351653885,
+        "integral_w_to_1_over_m": 17.976594175826733,
+        "corrected_mass_identity_residual": 4.192202140984591e-13
+      },
+      {
+        "m": 2.0,
+        "edge_flux": 0.1,
+        "amplitude": 1.7889401150895423,
+        "width": 4.865241293489751,
+        "integral_w": 4.164072179953705,
+        "integral_w_to_1_over_m": 4.064072179953741,
+        "corrected_mass_identity_residual": -3.552713678800501e-14
+      },
+      {
+        "m": 2.0,
+        "edge_flux": 1.0,
+        "amplitude": 2.511089083404381,
+        "width": 2.942650378896834,
+        "integral_w": 4.41462125783734,
+        "integral_w_to_1_over_m": 3.414621257837209,
+        "corrected_mass_identity_residual": 1.3145040611561853e-13
+      },
+      {
+        "m": 2.0,
+        "edge_flux": 10.0,
+        "amplitude": 12.64817987569725,
+        "width": 1.8963218328406553,
+        "integral_w": 15.110174479032004,
+        "integral_w_to_1_over_m": 5.110174479031572,
+        "corrected_mass_identity_residual": 4.3165471197426086e-13
+      },
+      {
+        "m": 3.0,
+        "edge_flux": 0.1,
+        "amplitude": 0.6717254202852638,
+        "width": 3.6153858597154285,
+        "integral_w": 1.2875857453524222,
+        "integral_w_to_1_over_m": 2.375171490704554,
+        "corrected_mass_identity_residual": 1.4521717162097048e-13
+      },
+      {
+        "m": 3.0,
+        "edge_flux": 1.0,
+        "amplitude": 1.5201843722868487,
+        "width": 2.10511985485134,
+        "integral_w": 1.9844405550511723,
+        "integral_w_to_1_over_m": 1.9688811101018793,
+        "corrected_mass_identity_residual": 2.327027459614328e-13
+      },
+      {
+        "m": 3.0,
+        "edge_flux": 10.0,
+        "amplitude": 10.86499944864613,
+        "width": 1.6729500364863086,
+        "integral_w": 11.522671294376917,
+        "integral_w_to_1_over_m": 3.0453425887535195,
+        "corrected_mass_identity_residual": 1.567634910770721e-13
+      }
+    ]
+  },
+  "warning": "Symbolic identities and floating-point quadratures only; not proof-assistant or interval certificates."
+}

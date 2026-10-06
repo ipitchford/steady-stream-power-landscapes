@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "symbolic": "factorization, initial mass, endpoint derivative and first-order coefficient identities",
+  "numerical": [
+    {
+      "m": 1.2,
+      "epsilon": 0.0001,
+      "Mprime_over_epsilon": 1.8411802786816283,
+      "predicted_limit": 1.862667993040971,
+      "relative_error": 0.011535987325504113,
+      "analytic_absolute_remainder_bound": 0.0966385949691311,
+      "quad_estimated_error": 2.3454793662835982e-11
+    },
+    {
+      "m": 1.2,
+      "epsilon": 1e-05,
+      "Mprime_over_epsilon": 1.8605189719446054,
+      "predicted_limit": 1.862667993040971,
+      "relative_error": 0.0011537327663301144,
+      "analytic_absolute_remainder_bound": 0.00965225961693741,
+      "quad_estimated_error": 2.3452573216786732e-11
+    },
+    {
+      "m": 1.2,
+      "epsilon": 1e-06,
+      "Mprime_over_epsilon": 1.8624530884263213,
+      "predicted_limit": 1.862667993040971,
+      "relative_error": 0.00011537462148524944,
+      "analytic_absolute_remainder_bound": 0.0009651101313350263,
+      "quad_estimated_error": 2.3452351172181807e-11
+    },
+    {
+      "m": 1.5,
+      "epsilon": 0.0001,
+      "Mprime_over_epsilon": 3.225887700211107,
+      "predicted_limit": 3.2786783746482366,
+      "relative_error": 0.016101205548346414,
+      "analytic_absolute_remainder_bound": 0.2415320187003181,
+      "quad_estimated_error": 1.9324097877415625e-11
+    },
+    {
+      "m": 1.5,
+      "epsilon": 1e-05,
+      "Mprime_over_epsilon": 3.273398768905431,
+      "predicted_limit": 3.2786783746482366,
+      "relative_error": 0.0016102847365661304,
+      "analytic_absolute_remainder_bound": 0.02413000551546594,
+      "quad_estimated_error": 1.9318324717687574e-11
+    },
+    {
+      "m": 1.5,
+      "epsilon": 1e-06,
+      "Mprime_over_epsilon": 3.278150408675971,
+      "predicted_limit": 3.2786783746482366,
+      "relative_error": 0.00016103012004717312,
+      "analytic_absolute_remainder_bound": 0.0024127688942271294,
+      "quad_estimated_error": 1.9317880628477724e-11
+    },
+    {
+      "m": 2.0,
+      "epsilon": 0.0001,
+      "Mprime_over_epsilon": 4.255062371849787,
+      "predicted_limit": 4.358745025316771,
+      "relative_error": 0.023787271993375794,
+      "analytic_absolute_remainder_bound": 0.4829351343618799,
+      "quad_estimated_error": 1.1396217303172307e-11
+    },
+    {
+      "m": 2.0,
+      "epsilon": 1e-05,
+      "Mprime_over_epsilon": 4.348375896475834,
+      "predicted_limit": 4.358745025316771,
+      "relative_error": 0.002378925305497379,
+      "analytic_absolute_remainder_bound": 0.04825872401150042,
+      "quad_estimated_error": 1.1386447340555605e-11
+    },
+    {
+      "m": 2.0,
+      "epsilon": 1e-06,
+      "Mprime_over_epsilon": 4.357708103777885,
+      "predicted_limit": 4.358745025316771,
+      "relative_error": 0.00023789451616541124,
+      "analytic_absolute_remainder_bound": 0.004825524920267703,
+      "quad_estimated_error": 1.1386447340555605e-11
+    },
+    {
+      "m": 3.0,
+      "epsilon": 0.0001,
+      "Mprime_over_epsilon": 4.979276058781614,
+      "predicted_limit": 5.182824979684246,
+      "relative_error": 0.039273740035696295,
+      "analytic_absolute_remainder_bound": 0.9656125314404118,
+      "quad_estimated_error": 5.7127635955112055e-12
+    },
+    {
+      "m": 3.0,
+      "epsilon": 1e-05,
+      "Mprime_over_epsilon": 5.162468864885347,
+      "predicted_limit": 5.182824979684246,
+      "relative_error": 0.003927609919048247,
+      "analytic_absolute_remainder_bound": 0.09651487405278354,
+      "quad_estimated_error": 5.710099060252105e-12
+    },
+    {
+      "m": 3.0,
+      "epsilon": 1e-06,
+      "Mprime_over_epsilon": 5.180789355954182,
+      "predicted_limit": 5.182824979684246,
+      "relative_error": 0.00039276335551415855,
+      "analytic_absolute_remainder_bound": 0.00965102410423092,
+      "quad_estimated_error": 5.708322703412705e-12
+    }
+  ],
+  "scope": "Exact symbolic identities plus sampled floating-point quadratures, not interval arithmetic or a proof of arbitrary-data nonexistence."
+}

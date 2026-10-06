@@ -1,0 +1,17 @@
+# Targeted literature audit — 6 October 2026
+
+This is a bounded update, not an exhaustive novelty search. Historical input archives are preserved separately and identified by hash; they are not rewritten by this release.
+
+| Source | Access and locator | Consequence for framing |
+|---|---|---|
+| [Briane 2014](https://arxiv.org/html/1306.0236), [published record](https://www.aimsciences.org/article/doi/10.3934/dcdsb.2014.19.353) | Full author text, Theorem 2.1, conditions 1.4/2.3/2.5/2.8, Remark 2.2 | Source-free prescribed-potential reconstruction near a nondegenerate saddle, with integrated-Laplacian conditions. It establishes ancestry but is not the same positive-source/coupled statement. |
+| [Briane 2018](https://www.numdam.org/articles/10.1051/m2an/2018013/) | [Full author text](https://arxiv.org/html/1802.04857), Theorem 2.1 | Source-free reconstruction with nonvanishing uniformly continuous gradient, bounded Laplacian and W2,1 local potential; not the positive-source nonlinear coupling. |
+| [Richter 1981](https://epubs.siam.org/doi/10.1137/0141016) | User-supplied complete 12-page PDF; printed pp. 213–219, Lemma 3 and Theorems 1–2 | The positive-source critical-set sufficiency principle is already covered after u=-z. Linear novelty claim withdrawn; see RICHTER_COMPARISON.md. |
+| [Anand et al. 2023](https://arxiv.org/html/2401.04113) | Full author text; governing equations, Section 4.1, Appendix C | Specific-area model, one-dimensional profiles and vanishing diffusion are antecedents. Do not claim these ideas originated in the manuscript. |
+| [Litwin et al. 2025](https://esurf.copernicus.org/articles/13/277/2025/) | Full publisher text; Eq. 17 | Relevant all-exponent dimensional scale predates this package. The new argument must concern proved profiles/corrections, not dimensional balancing. |
+| [Binard et al. 2024](https://arxiv.org/html/2211.09629v3) | Full author text; Theorem 1.1 | Positive-depth, three-field Cauchy problem on R², with n>3 or n=2 and additional hypotheses. Not the same steady stream-power system or general vacuum theorem. |
+| [Díaz et al. 2008](https://people.maths.ox.ac.uk/~fowler/papers/2008.5.pdf) | Accessible 20-page author PDF; relevant printed pages 1673, 1674, 1677 identified in supplied source audit | Preserve exact equation-level scope of the normalization and scaling objections. No claim that every result is false; a subsequent correction has not been ruled out. |
+
+Searches included coupled stream-power steady existence, critical-point conductivity reconstruction and the exact titles above. No exact earlier coupled theorem was located in this targeted pass. This statement is weaker than establishing novelty. The v1.1 and v1.2 analytical additions have provisional priority. Searches for steady stream-power uniqueness and fixed-point constructions did not establish an exact earlier counterpart, but this is not an exhaustive review. We do not claim the first numerical fixed-point algorithm for landscape evolution.
+
+External analysis tools are standard Dirichlet Poisson/Schauder theory, maximum principles, compact-convex fixed points and heat-semigroup local theory. The manuscript now states the actual local space and estimates instead of relying solely on an unspecified general theorem. It cites Gilbarg–Trudinger Chapters 3/6 and Theorem 6.14 and Henry Section 3.3; a page-by-page re-audit of both entire books was not performed.

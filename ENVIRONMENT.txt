@@ -1,0 +1,8 @@
+Python 3.14.7
+numpy==2.5.3
+scipy==1.18.1
+sympy==1.14.0
+mpmath==1.3.0
+matplotlib==3.11.2
+
+Local source export: pdfLaTeX, two passes, no final warnings or unresolved references. Native editor compiler also succeeded for both sources.

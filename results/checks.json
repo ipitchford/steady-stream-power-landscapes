@@ -1,0 +1,155 @@
+{
+  "artifact": "Problem 5 deterministic replay checks",
+  "versions": {
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0"
+  },
+  "algebra": {
+    "status": "PASS",
+    "ellipse_torsion": "-x**2/10 - 2*y**2/5 + 2/5",
+    "ellipse_first_elevation_correction": "-(x**2 + 4*y**2 - 4)*(3*x**2 + 52*y**2 + 44)/4100",
+    "ellipse_first_transport_correction": "x**2/35 + 16*y**2/65",
+    "ellipse_area_residual_minimum_lambda_degree": 2,
+    "ellipse_bed_residual_minimum_lambda_degree": 2,
+    "wet_up_three_interior_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "planar_front_three_wet_interior_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "moving_front_distributional_and_viscosity_checks": "Analytical proof in companion; NOT certified by these symbolic interior checks.",
+    "separable_Dirac_coefficient_factor": "(T0 - t)**(-m/(m - 1))",
+    "warning": "Polynomial identities are exact SymPy checks. They do not certify functional analysis, fixed points, or PDE theorems."
+  },
+  "numerics": {
+    "status": "PASS",
+    "cases": [
+      {
+        "d": 2,
+        "m": 0.5,
+        "n": 1.0,
+        "rho_max": 120.0,
+        "rho_to_p_times_y": 0.9996193472109157,
+        "scaled_first_correction": -0.5003810859809185,
+        "predicted_first_correction": -0.5,
+        "integral_y_to_rho_max": 19.440967229167313,
+        "integral_rho_to_d_y_to_rho_max": 63036.685049313,
+        "n1_max_quadrature_absolute_error": 1.2484735467666042e-11,
+        "solver_nfev": 6455
+      },
+      {
+        "d": 2,
+        "m": 1.0,
+        "n": 1.0,
+        "rho_max": 120.0,
+        "rho_to_p_times_y": 1.0000000000017644,
+        "scaled_first_correction": 2.5406876602573902e-08,
+        "predicted_first_correction": -0.0,
+        "integral_y_to_rho_max": 4.729525984952236,
+        "integral_rho_to_d_y_to_rho_max": 7198.999999999998,
+        "n1_max_quadrature_absolute_error": 2.7970126215137725e-12,
+        "solver_nfev": 7784
+      },
+      {
+        "d": 2,
+        "m": 2.0,
+        "n": 1.0,
+        "rho_max": 120.0,
+        "rho_to_p_times_y": 1.0000005787087705,
+        "scaled_first_correction": 1.0000087553549974,
+        "predicted_first_correction": 1.0,
+        "integral_y_to_rho_max": 1.1269756106885391,
+        "integral_rho_to_d_y_to_rho_max": 119.11844532477338,
+        "n1_max_quadrature_absolute_error": 5.153044657646433e-12,
+        "solver_nfev": 9260
+      },
+      {
+        "d": 3,
+        "m": 0.6,
+        "n": 1.2,
+        "rho_max": 120.0,
+        "rho_to_p_times_y": 0.9990490022338135,
+        "scaled_first_correction": -1.2501190288256303,
+        "predicted_first_correction": -1.25,
+        "integral_y_to_rho_max": 18.97913680076766,
+        "integral_rho_to_d_y_to_rho_max": 5399366.827366873,
+        "n1_max_quadrature_absolute_error": null,
+        "solver_nfev": 7656
+      },
+      {
+        "d": 1,
+        "m": 1.0,
+        "n": 2.0,
+        "rho_max": 120.0,
+        "rho_to_p_times_y": 1.0001903081825503,
+        "scaled_first_correction": 0.25016660270543933,
+        "predicted_first_correction": 0.25,
+        "integral_y_to_rho_max": 20.50834423584538,
+        "integral_rho_to_d_y_to_rho_max": 877.0896604167581,
+        "n1_max_quadrature_absolute_error": null,
+        "solver_nfev": 6297
+      },
+      {
+        "d": 2,
+        "m": 0.4,
+        "n": 0.6,
+        "rho_max": 120.0,
+        "rho_to_p_times_y": 0.999809568087619,
+        "scaled_first_correction": -0.5559577716021825,
+        "predicted_first_correction": -0.5555555555555555,
+        "integral_y_to_rho_max": 11.314449768846618,
+        "integral_rho_to_d_y_to_rho_max": 30418.91030921053,
+        "n1_max_quadrature_absolute_error": null,
+        "solver_nfev": 6428
+      },
+      {
+        "d": 3,
+        "m": 3.0,
+        "n": 1.0,
+        "rho_max": 120.0,
+        "rho_to_p_times_y": 1.0000000047917246,
+        "scaled_first_correction": 0.9936120073916754,
+        "predicted_first_correction": 1.0,
+        "integral_y_to_rho_max": 0.5308773460234821,
+        "integral_rho_to_d_y_to_rho_max": 118.91400253047506,
+        "n1_max_quadrature_absolute_error": 1.0111356196773613e-12,
+        "solver_nfev": 9556
+      }
+    ],
+    "asymptotic_constants_illustration": [
+      {
+        "rho": 15.0,
+        "critical_integral_minus_log": -0.05796575782192326,
+        "supercritical_integral_plus_leading_tail": 1.1353040036037745
+      },
+      {
+        "rho": 30.0,
+        "critical_integral_minus_log": -0.05796575782862323,
+        "supercritical_integral_plus_leading_tail": 1.1353086365658327
+      },
+      {
+        "rho": 60.0,
+        "critical_integral_minus_log": -0.05796575785735314,
+        "supercritical_integral_plus_leading_tail": 1.1353089259255078
+      },
+      {
+        "rho": 120.0,
+        "critical_integral_minus_log": -0.057965757911180305,
+        "supercritical_integral_plus_leading_tail": 1.1353089440234898
+      },
+      {
+        "rho": 240.0,
+        "critical_integral_minus_log": -0.0579657578300381,
+        "supercritical_integral_plus_leading_tail": 1.1353089451520602
+      }
+    ],
+    "warning": "Floating-point ODE evidence only. No interval enclosures and no formal theorem verification."
+  },
+  "wall_seconds": 1.102225124996039
+}

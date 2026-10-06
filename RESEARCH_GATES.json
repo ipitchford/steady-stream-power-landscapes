@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-06",
+  "original_request_status": "PARTIALLY_RESOLVED",
+  "research_concluded_for_whole_problem": false,
+  "release_status": "RESEARCH_CANDIDATE_PUBLICATION_AUTHORIZED_FINAL_GATES_NOT_ATTESTED_HERE",
+  "tasks": [
+    {
+      "id": "P5-A",
+      "request": "Vacuum/degenerate-parabolic existence theory for the Binard-Degond-Noble water-bed-sediment system, including global time behavior",
+      "status": "OPEN_BEYOND_EXACT_SUBCLASSES",
+      "delivered": [
+        "BDN-FRONT",
+        "BDN-WETUP"
+      ],
+      "not_delivered": [
+        "Arbitrary compatible nonnegative initial data",
+        "General finite-energy domains and boundary conditions",
+        "Uniqueness/compactness estimates surviving vanishing water depth",
+        "General global-in-time well-posedness or a full-system viscosity formulation"
+      ],
+      "next_proof_obligation": "Specify an admissible full-system weak/viscosity solution concept, obtain uniform estimates for h and hc without dividing by h, and prove compactness and uniqueness or a sharp counterexample."
+    },
+    {
+      "id": "P5-B",
+      "request": "Existence and regularity of steady stream-power-plus-diffusion landscapes coupled to contributing area",
+      "status": "PROVED_IN_STATED_GENERAL_DOMAIN_SMALL_EROSION_AND_ALL_PARAMETER_RADIAL_CLASSES",
+      "delivered": [
+        "SP-RESOLVENT",
+        "SP-CRITICAL",
+        "SP-GENERAL",
+        "SP-RESPONSE",
+        "SP-ELLIPSE",
+        "SP-RADIAL",
+        "SP-EVOLUTION",
+        "SP-TAIL",
+        "SP-SUMMIT",
+        "SP-VISCOSITY",
+        "SP-MOMENTS",
+        "SP-PEAK",
+        "SP-INTEGRABLE",
+        "SP-BASIN",
+        "SP-CONTRACTION",
+        "SP-SECOND-TAIL",
+        "SP-MOMENT-CORRECTIONS",
+        "SP-LOCAL-UNIQUE",
+        "SP-RESIDUAL-BOUND",
+        "SP-SMALLNESS",
+        "SP-INEXACT"
+      ],
+      "not_delivered": [
+        "Arbitrary-erosion nonradial existence",
+        "Uniqueness beyond the constant-forcing, small-K, flow-margin multiplier class",
+        "Arbitrary mixed or single-outlet boundary conditions",
+        "Nonradial evolution or transverse stability",
+        "Numerically instantiated admissible K interval",
+        "Certified exact nonradial PDE branch or invariant-ball membership for the collocation experiment"
+      ],
+      "next_proof_obligation": "For arbitrary K, establish a priori bounds that close the nonlinear elliptic/transport fixed point, or prove a precise nonexistence result. The critical-set criterion alone does not do this."
+    },
+    {
+      "id": "P5-C",
+      "request": "D\u00edaz et al. fixed-coefficient reduced model for suitable strictly positive initial data decaying at infinity",
+      "status": "CONJECTURE_NOT_SOLVED_OR_REFUTED",
+      "delivered": [
+        "DIAZ-PRINT",
+        "DIAZ-REPAIR",
+        "DIAZ-TIME",
+        "DIAZ-FLUX",
+        "DIAZ-SCALING",
+        "DIAZ-COMPATIBILITY",
+        "DIAZ-INITIAL-OBSTRUCTION"
+      ],
+      "not_delivered": [
+        "Existence for the stated strictly positive infinite-support initial class",
+        "A counterexample excluding every suitable positive decaying datum",
+        "A proof that a front cannot enter from infinity",
+        "An equivalence proof between all printed strong-local and global measure formulations"
+      ],
+      "next_proof_obligation": "Fix the solution class and interface measure precisely; prove fixed-coefficient existence with the required integral constraint, or a theorem excluding that class. The repaired profile and elementary rescaling do not close this obligation."
+    }
+  ],
+  "release_gates": [
+    {
+      "id": "G-ANALYTICAL-REVISION",
+      "status": "PROOFS_AND_BOUNDED_AUDIT_RESPONSE_PRESENTED",
+      "evidence": [
+        "manuscript/paper.tex",
+        "companion/companion.tex",
+        "REVIEW_RESPONSE.md"
+      ],
+      "limit": "AI-assisted analysis; no external specialist acceptance or formal certificate"
+    },
+    {
+      "id": "G-CLEAN-REPLAY",
+      "status": "PENDING_FINAL_FROZEN_PACKAGE_RECEIPT",
+      "required": [
+        "clean extraction",
+        "input identity",
+        "commands",
+        "actual runtime versions",
+        "outputs"
+      ],
+      "evidence_candidates": [
+        "results/checks.json",
+        "results/structural_checks.json",
+        "results/extensions.json",
+        "results/compatibility.json",
+        "results/nonradial.json",
+        "results/global_bounds.json"
+      ]
+    },
+    {
+      "id": "G-EXACT-PINS",
+      "status": "PASS_SOURCE_BOUND_REPLAY; FINAL_ARCHIVE_RECEIPT_EXTERNAL",
+      "required": [
+        "compare installed environment with requirements.txt",
+        "distinguish exact-pins from historical cross-version replay"
+      ],
+      "evidence": [
+        "provenance/replay-normal.json",
+        "provenance/replay-optimized.json"
+      ]
+    },
+    {
+      "id": "G-OPTIMIZED-AND-NEGATIVE",
+      "status": "PASS_SOURCE_BOUND; FINAL_ARCHIVE_RECEIPT_EXTERNAL",
+      "required": [
+        "ordinary and optimized Python checks",
+        "torsion mutation rejection",
+        "ellipse mutation rejection"
+      ],
+      "evidence_candidates": [
+        "results/negative_controls.json"
+      ],
+      "evidence": [
+        "provenance/replay-optimized.json",
+        "results/negative_controls.json"
+      ]
+    },
+    {
+      "id": "G-PDF-QA",
+      "status": "PASS",
+      "required": [
+        "source-to-PDF identity",
+        "complete text check",
+        "every-page visual inspection",
+        "no unresolved clipping or visible TeX"
+      ],
+      "evidence": [
+        "provenance/pdf_qa.json"
+      ]
+    },
+    {
+      "id": "G-MANIFEST-AND-AI-INDEX",
+      "status": "PENDING_ASSEMBLED_PACKAGE_CHECK",
+      "required": [
+        "manifest coverage and hashes",
+        "AI_INDEX local links",
+        "final package hash"
+      ]
+    },
+    {
+      "id": "G-EXTERNAL-SPECIALIST-REVIEW",
+      "status": "NOT_ESTABLISHED",
+      "note": "Supplied audit and internal reviews are AI-assisted; no external human referee acceptance claimed. This is a disclosure, not an automatic publication block."
+    },
+    {
+      "id": "G-PRIORITY",
+      "status": "PROVISIONAL_BOUNDED_AUDIT_ONLY",
+      "resolved": "Prescribed-potential sufficiency attributed to Richter; linear novelty claim withdrawn.",
+      "limit": "No exhaustive later-literature priority certificate"
+    },
+    {
+      "id": "G-FORMAL-CERTIFICATE",
+      "status": "NOT_PROVIDED"
+    },
+    {
+      "id": "G-EMPIRICAL-VALIDATION",
+      "status": "NOT_CLAIMED"
+    },
+    {
+      "id": "G-COMPLETE-PROBLEM5",
+      "status": "NOT_PASSED"
+    },
+    {
+      "id": "G-GITHUB-CI-TAG",
+      "status": "PENDING_PUBLIC_READBACK",
+      "required": [
+        "public repository",
+        "exact payload commit",
+        "green required CI",
+        "immutable annotated tag",
+        "release asset digests"
+      ]
+    },
+    {
+      "id": "G-ZENODO",
+      "status": "PENDING_PUBLIC_STATUS_AND_ASSET_VERIFICATION",
+      "doi": "10.5281/zenodo.23178664",
+      "required": [
+        "explicit public record status",
+        "asset inventory",
+        "digest and size parity"
+      ]
+    },
+    {
+      "id": "G-EVIDENCE-PRESS",
+      "status": "PENDING_CANONICAL_READBACK",
+      "required": [
+        "deployed canonical page and machine record",
+        "exact release identity",
+        "desktop/mobile inspection",
+        "required media QA"
+      ]
+    }
+  ],
+  "reason_for_current_delivery": "Bounded revisions and source-bound replay completed. Archive-dependent and public-provider receipts are external to the frozen payload to avoid circular identities. The broader research programme remains incomplete.",
+  "package_version": "1.3.0-candidate",
+  "release_identity": {
+    "doi": "10.5281/zenodo.23178664",
+    "repository": "https://github.com/ipitchford/steady-stream-power-landscapes",
+    "tag": "v1.3.0-candidate",
+    "scholarly_creator": "Anonymous",
+    "publication_status": "NOT_ATTESTED_BY_CLAIM_LEDGER"
+  }
+}

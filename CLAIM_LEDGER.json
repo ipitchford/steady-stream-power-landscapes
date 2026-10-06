@@ -1,0 +1,421 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-06",
+  "package_version": "1.3.0-candidate",
+  "overall_original_problem_status": "PARTIALLY_RESOLVED",
+  "claim_count": 30,
+  "claims": [
+    {
+      "id": "SP-RESOLVENT",
+      "document": "manuscript/paper.pdf",
+      "location": "LaTeX label lem:resolvent",
+      "title": "Damped drainage resolvent",
+      "assumptions": "C^(2,alpha) landscape; inward backward gradient flow; -Delta z >= kappa > 0; alpha L < kappa; positive Holder source",
+      "conclusion": "A positive bounded Holder b is constructed by an infinite characteristic integral; div(-b grad z)=rho globally in distributions.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "CHARACTERISTIC_METHOD_IS_CLASSICAL; MODEL_SPECIFIC_ESTIMATES_PRESENTED",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-CRITICAL",
+      "document": "manuscript/paper.pdf",
+      "location": "LaTeX label thm:criticalcriterion",
+      "title": "Critical-set criterion",
+      "assumptions": "Bounded smooth domain; zero boundary elevation and negative outward normal derivative; C^(2,alpha0) z; positive Holder rho; multiplier required bounded nonnegative continuous",
+      "conclusion": "A multiplier exists iff -Delta z is strictly positive at every critical point; constructed b is positive Holder and unique in the bounded continuous characteristic class. No claim for unbounded multipliers.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "LINEAR_SUFFICIENCY_CLASSICAL_RICHTER_1981; EXPLICIT_HOLDER_AND_DISTRIBUTIONAL_REFINEMENT_PRESENTED",
+      "computational_support": [
+        "code/verify_structural.py: critical-point trace identity only"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-GENERAL",
+      "document": "manuscript/paper.pdf",
+      "location": "LaTeX label thm:general",
+      "title": "General-domain weak-erosion steady existence",
+      "assumptions": "Bounded connected C^(2,alpha0) domain; zero elevation on the whole boundary; D>0; m,n>0; positive Holder U,rho; 0<=K<=K0",
+      "conclusion": "At least one classical-elevation conservative-flux steady state; z0/2<=z<=z0 and ||z-z0||_(2,alpha)<=C K. Neither elevation uniqueness nor arbitrary-K nonradial existence claimed.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-RESPONSE",
+      "document": "manuscript/paper.pdf",
+      "location": "LaTeX label cor:response",
+      "title": "First-order small-erosion response",
+      "assumptions": "A family selected from Theorem thm:general",
+      "conclusion": "zK=z0-(K/D)P(b0^m |grad z0|^(m+n))+o(K), independent of branch selection at first order. The D=U=rho=1 case also gives the displayed first multiplier correction.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-ELLIPSE",
+      "document": "manuscript/paper.pdf",
+      "location": "Section 3",
+      "title": "Nonradial exact polynomial response check",
+      "assumptions": "Ellipse x^2/4+y^2<1; D=U=rho=1; m=n=1",
+      "conclusion": "Explicit z0,W,b1 satisfy the torsion and linear response equations exactly; z0-KW and 1+K b1 have residuals of order at least K^2, not zero at finite K.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "EXACT_WORKED_BENCHMARK_NOT_A_GENERAL_NOVELTY_CLAIM",
+      "computational_support": [
+        "code/verify.py: exact SymPy residual coefficients",
+        "code/verify_global_bounds.py: exact-rational whole-square residual and positivity bounds for frozen decimal polynomials, not an exact-PDE enclosure"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-RADIAL",
+      "document": "manuscript/paper.pdf",
+      "location": "LaTeX label thm:radial",
+      "title": "All-parameter radial steady theorem",
+      "assumptions": "Ball B_R in dimension d>=1; constant U>0; rho=1; D,K>0; m,n>0; no point sources",
+      "conclusion": "Unique regular downhill radial steady state; a=r/d and q=x/d; positive slope bounded by U r/(dD); summit C^(2,gamma) regularity for gamma<min(1,m+n).",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [
+        "code/verify.py: seven ODE consistency cases"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-EVOLUTION",
+      "document": "manuscript/paper.pdf",
+      "location": "LaTeX label thm:dynamic",
+      "title": "Global monotone radial evolution and relaxation",
+      "assumptions": "Parameters as radial theorem, n>=1; nonincreasing radial C^(2,alpha) initial elevation with zero boundary value, regular center and displayed compatibility",
+      "conclusion": "Unique global classical positive-time radial evolution; a stationary larger-uplift slope bounds the gradient; |z-z*| <= C_in exp(-2dDt/R^2)(R^2-r^2). No nonradial or n<1 evolution assertion.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-TAIL",
+      "document": "manuscript/paper.pdf",
+      "location": "Section 6; locate by result title in revised manuscript",
+      "title": "Universal profile with first correction",
+      "assumptions": "All m,n>0 and d>=1; p=m/n; positive radial universal profile",
+      "conclusion": "rho^p y=1-(d-1-p)/n * rho^(-p-1)+o(rho^(-p-1)).",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [
+        "code/verify.py: seven finite-radius consistency cases"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-SUMMIT",
+      "document": "manuscript/paper.pdf",
+      "location": "LaTeX label thm:crest",
+      "title": "Complete radial summit limit",
+      "assumptions": "D down to zero, other radial parameters fixed",
+      "conclusion": "Summit finite for p<1; logarithmically divergent with a finite renormalized constant for p=1; power divergence D^((n-m)/(m+n)) for p>1.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "ALL_EXPONENT_CLASSIFICATION_CANDIDATE; ONE_DIMENSIONAL_LOG_CASE_AND_DIMENSIONAL_SCALE_KNOWN",
+      "computational_support": [
+        "code/verify.py: critical/supercritical integrals"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-VISCOSITY",
+      "document": "manuscript/paper.pdf",
+      "location": "Section 6; locate by result title in revised manuscript",
+      "title": "Scalar finite-summit viscosity limit",
+      "assumptions": "0<p<1 in the radial small-diffusion limit",
+      "conclusion": "The finite cusp limit is a continuous viscosity solution of the scalar limiting stream-power Hamilton-Jacobi equation on the whole ball. This is not a BDN system viscosity theorem.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-MOMENTS",
+      "document": "manuscript/paper.pdf",
+      "location": "LaTeX label thm:moments",
+      "title": "All weighted relief moment thresholds",
+      "assumptions": "beta>0; radial parameters fixed as D down to zero",
+      "conclusion": "V_beta has finite/log/power regimes at p=beta+1. In dimension d total volume has threshold p=d+1. Supercritical D exponent is [n(beta+1)-m]/(m+n).",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-PEAK",
+      "document": "manuscript/paper.pdf",
+      "location": "LaTeX label prop:peak",
+      "title": "Unique slope maximum",
+      "assumptions": "All positive radial exponents",
+      "conclusion": "The universal slope has exactly one nondegenerate maximum. The physical maximum is at ell*rho_star when that point lies inside the ball.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-INTEGRABLE",
+      "document": "manuscript/paper.pdf",
+      "location": "Section 7",
+      "title": "Integrable radial family and constants",
+      "assumptions": "d>1 and m=n(d-1)",
+      "conclusion": "w satisfies dw/dtau=1-w^n; explicit exponential and hyperbolic-tangent cases at n=1,2; gamma-function integrals and logarithmic constants.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "ELEMENTARY_DERIVED_BENCHMARKS; PRIORITY_NOT_CLAIMED",
+      "computational_support": [
+        "code/verify_structural.py: exact residuals",
+        "code/verify.py: critical logarithmic constant"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-BASIN",
+      "document": "manuscript/paper.pdf",
+      "location": "Section 8",
+      "title": "No sink-free compact sublevel basin",
+      "assumptions": "C1 topography; compact internal sublevel basin; positive rainfall; nonnegative downhill contributing area; no sink allowed",
+      "conclusion": "A nonnegative test function yields a contradiction to div q=rho.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "STANDARD_CONSERVATION_OBSTRUCTION_NOT_CLAIMED_NEW",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "BDN-FRONT",
+      "document": "companion/companion.pdf",
+      "location": "Theorem 2.1 and Proposition 2.2",
+      "title": "Full-system planar wet-dry traveling fronts",
+      "assumptions": "Affine bed on unbounded space; h=alpha(x.nu-Vt)_+; zero rainfall; positive coefficients/exponents; v_w=-(b+alpha nu); V=v_w.nu",
+      "conclusion": "The displayed h,z,c solve all three conservative equations distributionally; water h satisfies the scalar viscosity inequalities at the front. Classified within the one-sided traveling affine-bed ansatz, not arbitrary data.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [
+        "code/verify.py: wet-interior residuals",
+        "code/verify_structural.py: front viscosity polynomial"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "BDN-WETUP",
+      "document": "companion/companion.pdf",
+      "location": "Theorem 3.1",
+      "title": "Global wet-up from full vacuum",
+      "assumptions": "Spatially homogeneous continuous nonnegative rainfall; affine bed plus time-dependent offset; h(0)=0; m,n>0",
+      "conclusion": "Unique solution within this ansatz using the displayed Volterra formula for hc; 0<=c<=constant*h^m; includes elementary constant-rainfall family. Not a finite-energy general-domain theorem.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED",
+      "computational_support": [
+        "code/verify.py: constant-rainfall residuals"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "DIAZ-PRINT",
+      "document": "companion/companion.pdf",
+      "location": "Proposition 4.1",
+      "title": "Contradictory printed profile normalization",
+      "assumptions": "Printed 2008 page 1673 ODE, support/no-flux conditions, c_star>0 and integral w=c_star",
+      "conclusion": "Integrating gives integral w - (m-1)^(-1) integral w^(1/m)=c_star, so the additional printed normalization is impossible for a nonzero nonnegative profile.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "SOURCE_EQUATION_AUDIT; DOES_NOT_REFUTE_THE_SEPARATE_CONJECTURE",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "DIAZ-REPAIR",
+      "document": "companion/companion.pdf",
+      "location": "Theorem 4.2",
+      "title": "Complete corrected positive profile problem",
+      "assumptions": "m>1; c_star>0; w positive on [0,L); w_prime(0)=0; w(L)=0 and zero after L; omit the incompatible integral normalization",
+      "conclusion": "Unique amplitude from V(A)=c_star^2/2 and unique energy-quadrature profile; corrected integral identity; width strictly decreases with c_star and pi/2<L<pi*m/(m-1), with sharp endpoint limits.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "CORRECTIVE_THEOREM_CANDIDATE; PHASE_PLANE_METHOD_CLASSICAL",
+      "computational_support": [
+        "code/verify_structural.py: nine quadrature cases and zero-flux profile identity"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "DIAZ-TIME",
+      "document": "companion/companion.pdf",
+      "location": "Proposition 4.3",
+      "title": "Separable time-factor correction",
+      "assumptions": "The corrected profile and u=(T-t)^(-1/(m-1))w^(1/m)",
+      "conclusion": "Dirac coefficient is c_star*(T-t)^(-m/(m-1)), not a fixed positive constant. This is a timed-sink blow-up family, not the conjectured fixed-coefficient problem.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "SOURCE_EQUATION_AUDIT",
+      "computational_support": [
+        "code/verify.py: exact time-factor algebra"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "DIAZ-FLUX",
+      "document": "companion/companion.pdf",
+      "location": "Proposition 5.1",
+      "title": "Correct zero-extension and moving-boundary flux identity",
+      "assumptions": "Regular moving interface, continuous u=0 at its edge, finite trace of (u^m)_x and locally integrable zero-extended u_t",
+      "conclusion": "q=C(t)-N_prime(t), where C(t)=integral u^m and N(t)=integral u. Fixed Dirac coefficient C together with integral u^m=C forces N_prime=0 in this class. No exclusion of more singular formulations.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "DIRECT_DISTRIBUTIONAL_IDENTITY",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "DIAZ-SCALING",
+      "document": "companion/companion.pdf",
+      "location": "Proposition 5.2",
+      "title": "Variable-coefficient rescaling audit",
+      "assumptions": "Smooth amplitude/dilation/time transformation u=A(t)V(B(t)x,tau(t))",
+      "conclusion": "Normalizing diffusion, reaction and fixed sink imposes B^2=lambda and A^m B=1, while nonconstant scales generally retain amplitude and dilation terms. Not a theorem ruling out every possible transform.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "DIRECT_CHAIN_RULE_AUDIT",
+      "computational_support": [
+        "code/verify_structural.py: scale relations"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-CONTRACTION",
+      "document": "manuscript/paper.pdf",
+      "location": "cor:contraction",
+      "title": "Eigenfunction-weighted radial contraction",
+      "assumptions": "Same parameters, monotone radial compatible initial data, m>0 and n>=1",
+      "conclusion": "Weighted sup distance contracts at exp(-D lambda_1 t); stronger relaxation with a different initial norm. Radial only.",
+      "status": "NEW_ANALYTICAL_PROOF_AI_CROSS_REVIEWED",
+      "computational_support": [],
+      "formal_proof_certificate": false,
+      "novelty": "UNVERIFIED"
+    },
+    {
+      "id": "SP-SECOND-TAIL",
+      "document": "manuscript/paper.pdf",
+      "location": "lem:outersecond",
+      "title": "Second radial outer correction",
+      "assumptions": "m,n>0; d>=1",
+      "conclusion": "rho^p y=1+A1 rho^(-q)+A2 rho^(-2q)+O(rho^(-3q)); c=0 has exponential correction",
+      "status": "NEW_ANALYTICAL_PROOF_AI_CROSS_REVIEWED",
+      "computational_support": [
+        "code/verify_extensions.py: coefficient identities; first-correction sampling; second numerical coefficient diagnostic only"
+      ],
+      "formal_proof_certificate": false,
+      "novelty": "UNVERIFIED"
+    },
+    {
+      "id": "SP-MOMENT-CORRECTIONS",
+      "document": "manuscript/paper.pdf",
+      "location": "thm:momentcorrections",
+      "title": "Finite-moment correction threshold",
+      "assumptions": "beta>0; p<beta+1; fixed parameters as D decreases",
+      "conclusion": "Correction regimes separated by beta=2p; coefficients may vanish, no universally sharp leading rate claimed",
+      "status": "NEW_ANALYTICAL_PROOF_AI_CROSS_REVIEWED",
+      "computational_support": [],
+      "formal_proof_certificate": false,
+      "novelty": "UNVERIFIED"
+    },
+    {
+      "id": "SP-LOCAL-UNIQUE",
+      "document": "manuscript/paper.pdf",
+      "location": "thm:localunique",
+      "title": "Constructive local nonradial uniqueness",
+      "assumptions": "Constant D,U,rho>0; m,n>0; m+n>=1; C2alpha domain; global Lip(grad z0)<U/D; sufficiently small K; bounded nonnegative continuous multiplier; elevation in the specified C2alpha ball",
+      "conclusion": "Unique local branch, nested contraction, multiplier Lipschitz bound and parameter stability. All ellipsoids d>=2 meet the geometric margin; no arbitrary-K or arbitrary-flux uniqueness.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_CROSS_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_BOUNDED_SEARCH_ONLY",
+      "computational_support": [
+        "code/verify_nonradial.py: illustrative finite-grid collocation, not a certificate of the theorem"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-RESIDUAL-BOUND",
+      "document": "manuscript/paper.pdf",
+      "location": "cor:posteriori",
+      "title": "Continuum a posteriori bounds",
+      "assumptions": "Invariant ball and multiplier interval; exact continuum residual norms; contraction constants eta,Q<1",
+      "conclusion": "Explicit elevation and multiplier error bounds from inner and outer residuals. Finite-grid PDE residuals do not supply these norms.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_CROSS_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_BOUNDED_SEARCH_ONLY",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "DIAZ-COMPATIBILITY",
+      "document": "companion/companion.pdf",
+      "location": "thm:constraintderivative",
+      "title": "Constraint derivative and necessary width",
+      "assumptions": "m>1; finite positive C1 moving boundary on compact positive-time intervals; pulled-back V continuous in time into C1 and W1,1 in time into L1; stated interior chain rule; uniform integrable domination of V^a V_yy and V^(-1/m)|V_y|^2; boundary traces as displayed; weaker conditional classes yield only the a.e. identity unless continuity is known.",
+      "conclusion": "The sufficient class gives C1 positive-time mass and the constraint derivative. Preserving integral u^m selects a Rayleigh quotient for lambda. Lambda=1 gives f>=pi sqrt(m(m-1))/(2m-1), strictly for positive edge flux. No existence theorem for the nonlocal model.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_CROSS_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_BOUNDED_SEARCH_ONLY",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "DIAZ-INITIAL-OBSTRUCTION",
+      "document": "companion/companion.pdf",
+      "location": "prop:initialobstruction",
+      "title": "Compact-data compatibility obstruction",
+      "assumptions": "m>1; C>0; explicit small positive compact cosine perturbation; right derivative identity at t=0, ensured for example by the stated fixed-domain time continuity, absolute continuity and uniform domination extending to zero with f(0)>0. Spatial integrability of initial data alone is insufficient.",
+      "conclusion": "Initial mass and edge flux both equal C but the constraint derivative is positive, excluding a constraint-preserving evolution in that regularity class. Does not refute the strictly positive infinite-support conjecture.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_CROSS_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "PROVISIONAL_BOUNDED_SEARCH_ONLY",
+      "computational_support": [
+        "code/verify_compatibility.py: exact identities and sampled quadratures with analytical remainder budget"
+      ],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-SMALLNESS",
+      "document": "manuscript/paper.pdf",
+      "location": "prop:smallness",
+      "title": "Consolidated sufficient smallness constants",
+      "assumptions": "Constants and invariant C2,alpha ball of thm:localunique fixed first; global Lipschitz L<lambda; Schauder and C0-to-C1 Poisson constants available.",
+      "conclusion": "An explicit minimum of symbolic positive bounds ensures multiplier interval invariance, inner Lipschitz contraction, elevation ball invariance and Q<=1/2. Constants are not numerically instantiated; ellipse torsion ratios 4/5 and 1/5 check only the geometric margin.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "QUANTITATIVE_CLARIFICATION_OF_STATED_CONTRACTION; PRIORITY_NOT_CLAIMED",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    },
+    {
+      "id": "SP-INEXACT",
+      "document": "manuscript/paper.pdf",
+      "location": "cor:inexact",
+      "title": "Inexact nested iteration with finite inner stopping",
+      "assumptions": "Fixed admissible tau>0; eta,Q<1; every approximate elevation in the invariant C2,alpha ball; interval-preserving inner evaluations with continuum error delta_j<=(1-eta)r_j/4 at evaluated iterates; continuum Poisson error pi_j.",
+      "conclusion": "Starting from b_circ, the inner step criterion <=r_j terminates after finitely many steps. Exact residual <=r_j+delta_j gives E_(j+1)<=Q E_j+xi_j and its convolution bound. Geometric error budgets converge. Flow, quadrature, infinite-tail and Poisson errors remain separate; no implemented certified numerical algorithm is claimed.",
+      "status": "ANALYTICAL_PROOF_PRESENTED_AI_REVIEWED_NOT_FORMALLY_CERTIFIED",
+      "novelty": "QUANTITATIVE_CLARIFICATION_OF_STATED_CONTRACTION; PRIORITY_NOT_CLAIMED",
+      "computational_support": [],
+      "formal_proof_certificate": false
+    }
+  ],
+  "global_disclosures": {
+    "independent_review": false,
+    "formal_verification": false,
+    "exhaustive_novelty_search": false,
+    "empirical_landscape_validation": false,
+    "numerical_checks_are_proofs_of_PDE_theorems": false,
+    "ai_assisted_review": true,
+    "external_specialist_peer_review": false,
+    "supplied_review_type": "AI_ASSISTED_SOURCE_NOT_EXTERNAL_SPECIALIST_REVIEW",
+    "numerical_admissible_K_interval_instantiated": false,
+    "certified_nonradial_branch": false,
+    "original_prose_data_license": "CC0-1.0",
+    "original_code_license": "MIT"
+  },
+  "release_identity": {
+    "doi": "10.5281/zenodo.23178664",
+    "repository": "https://github.com/ipitchford/steady-stream-power-landscapes",
+    "tag": "v1.3.0-candidate",
+    "scholarly_creator": "Anonymous",
+    "publication_status": "NOT_ATTESTED_BY_CLAIM_LEDGER"
+  }
+}

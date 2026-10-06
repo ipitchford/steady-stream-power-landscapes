@@ -1,0 +1,286 @@
+{
+  "status": "PASS",
+  "versions": {
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0"
+  },
+  "exact_symbolic_checks": "two multiplier examples and two outer-coefficient cancellation identities",
+  "first_correction_method": "integrate v=rho^(p+1)*(rho^p*y-1), starting at rho=1 from original ODE; cancellation-safe nonlinear remainder",
+  "first_correction_and_refinement": [
+    {
+      "d": 2,
+      "m": 0.5,
+      "n": 1.0,
+      "predicted_second_correction": -0.5,
+      "samples": [
+        {
+          "rho": 30.0,
+          "observed_first_correction": -0.5030903658134637,
+          "predicted": -0.5,
+          "absolute_error": 0.003090365813463669,
+          "asserted_tolerance": 0.012173612389003692,
+          "tolerance_refinement_difference": 3.7827074805818484e-11,
+          "observed_second_correction": -0.5077989200930562,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 60.0,
+          "observed_first_correction": -0.5010816661484151,
+          "predicted": -0.5,
+          "absolute_error": 0.0010816661484150947,
+          "asserted_tolerance": 0.004305314829119352,
+          "tolerance_refinement_difference": 1.718976072595524e-10,
+          "observed_second_correction": -0.5027129974761578,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 120.0,
+          "observed_first_correction": -0.5003810884785724,
+          "predicted": -0.5,
+          "absolute_error": 0.00038108847857243333,
+          "asserted_tolerance": 0.0015234515486254616,
+          "tolerance_refinement_difference": 4.78794781599845e-12,
+          "observed_second_correction": -0.5009538146866701,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "m": 1.0,
+      "n": 1.0,
+      "predicted_second_correction": -0.0,
+      "samples": [
+        {
+          "rho": 30.0,
+          "observed_first_correction": 2.138051082989391e-18,
+          "predicted": -0.0,
+          "absolute_error": 2.138051082989391e-18,
+          "asserted_tolerance": 2e-06,
+          "tolerance_refinement_difference": 1.5086189595687783e-16,
+          "observed_second_correction": 1.9242459746904518e-15,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 60.0,
+          "observed_first_correction": 2.6158963922072397e-18,
+          "predicted": -0.0,
+          "absolute_error": 2.6158963922072397e-18,
+          "asserted_tolerance": 2e-06,
+          "tolerance_refinement_difference": 1.1891890441848356e-16,
+          "observed_second_correction": 9.417227011946063e-15,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 120.0,
+          "observed_first_correction": 9.938286443864695e-18,
+          "predicted": -0.0,
+          "absolute_error": 9.938286443864695e-18,
+          "asserted_tolerance": 2e-06,
+          "tolerance_refinement_difference": 6.871465981106458e-16,
+          "observed_second_correction": 1.431113247916516e-13,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "m": 2.0,
+      "n": 1.0,
+      "predicted_second_correction": 4.0,
+      "samples": [
+        {
+          "rho": 30.0,
+          "observed_first_correction": 1.0001481865721662,
+          "predicted": 1.0,
+          "absolute_error": 0.0001481865721661979,
+          "asserted_tolerance": 0.0005945925925925926,
+          "tolerance_refinement_difference": 8.77860006909259e-11,
+          "observed_second_correction": 4.001037448487343,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 60.0,
+          "observed_first_correction": 1.0000185191190074,
+          "predicted": 1.0,
+          "absolute_error": 1.8519119007409657e-05,
+          "asserted_tolerance": 7.607407407407407e-05,
+          "tolerance_refinement_difference": 7.825073922163028e-12,
+          "observed_second_correction": 4.000129705600486,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 120.0,
+          "observed_first_correction": 1.000002314824191,
+          "predicted": 1.0,
+          "absolute_error": 2.3148241909964895e-06,
+          "asserted_tolerance": 1.1259259259259259e-05,
+          "tolerance_refinement_difference": 5.306866057708248e-14,
+          "observed_second_correction": 4.000016202041934,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "m": 0.6,
+      "n": 1.2,
+      "predicted_second_correction": -0.15624999999999992,
+      "samples": [
+        {
+          "rho": 30.0,
+          "observed_first_correction": -1.2509617107757824,
+          "predicted": -1.25,
+          "absolute_error": 0.0009617107757824428,
+          "asserted_tolerance": 0.0038056288715636517,
+          "tolerance_refinement_difference": 5.480853548789355e-10,
+          "observed_second_correction": -0.15802520570755108,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 60.0,
+          "observed_first_correction": -1.2503375310990104,
+          "predicted": -1.25,
+          "absolute_error": 0.0003375310990103575,
+          "asserted_tolerance": 0.001346785884099797,
+          "tolerance_refinement_difference": 6.805098706763602e-10,
+          "observed_second_correction": -0.15687027903530415,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 120.0,
+          "observed_first_correction": -1.2501190295473816,
+          "predicted": -1.25,
+          "absolute_error": 0.00011902954738163274,
+          "asserted_tolerance": 0.0004774536089454565,
+          "tolerance_refinement_difference": 7.075118269028735e-11,
+          "observed_second_correction": -0.15646840346532057,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "m": 1.0,
+      "n": 2.0,
+      "predicted_second_correction": 0.21875,
+      "samples": [
+        {
+          "rho": 30.0,
+          "observed_first_correction": 0.2513435868051859,
+          "predicted": 0.25,
+          "absolute_error": 0.0013435868051859257,
+          "asserted_tolerance": 0.005327080420189116,
+          "tolerance_refinement_difference": 1.4372802947804075e-10,
+          "observed_second_correction": 0.22077384034998918,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 60.0,
+          "observed_first_correction": 0.2504722013153039,
+          "predicted": 0.25,
+          "absolute_error": 0.0004722013153038995,
+          "asserted_tolerance": 0.0018847002377397166,
+          "tolerance_refinement_difference": 9.558581703927871e-11,
+          "observed_second_correction": 0.21945933962750883,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 120.0,
+          "observed_first_correction": 0.25016659896549,
+          "predicted": 0.25,
+          "absolute_error": 0.00016659896548998354,
+          "asserted_tolerance": 0.0006676350525236395,
+          "tolerance_refinement_difference": 3.7433944832798716e-12,
+          "observed_second_correction": 0.21900002749413286,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "m": 0.4,
+      "n": 0.6,
+      "predicted_second_correction": -1.1728395061728394,
+      "samples": [
+        {
+          "rho": 30.0,
+          "observed_first_correction": -0.5596731482543105,
+          "predicted": -0.5555555555555555,
+          "absolute_error": 0.0041175926987550016,
+          "asserted_tolerance": 0.01619882239043163,
+          "tolerance_refinement_difference": 1.1940071154015186e-10,
+          "observed_second_correction": -1.1926476122332805,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 60.0,
+          "observed_first_correction": -0.5568376375228083,
+          "predicted": -0.5555555555555555,
+          "absolute_error": 0.0012820819672528794,
+          "asserted_tolerance": 0.005103679367778353,
+          "tolerance_refinement_difference": 4.119530272461702e-10,
+          "observed_second_correction": -1.178965805529077,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 120.0,
+          "observed_first_correction": -0.5559579448900818,
+          "predicted": -0.5555555555555555,
+          "absolute_error": 0.00040238933452629855,
+          "asserted_tolerance": 0.0016089283063195786,
+          "tolerance_refinement_difference": 4.619304938557889e-12,
+          "observed_second_correction": -1.174758342457587,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "m": 3.0,
+      "n": 1.0,
+      "predicted_second_correction": 5.0,
+      "samples": [
+        {
+          "rho": 30.0,
+          "observed_first_correction": 1.000006172906985,
+          "predicted": 1.0,
+          "absolute_error": 6.172906984902582e-06,
+          "asserted_tolerance": 2.669135802469136e-05,
+          "tolerance_refinement_difference": 1.2916334668489071e-12,
+          "observed_second_correction": 5.000054657771091,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 60.0,
+          "observed_first_correction": 1.000000385801898,
+          "predicted": 1.0,
+          "absolute_error": 3.858018979840949e-07,
+          "asserted_tolerance": 3.54320987654321e-06,
+          "tolerance_refinement_difference": 4.558575739110893e-13,
+          "observed_second_correction": 4.99999259787387,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        },
+        {
+          "rho": 120.0,
+          "observed_first_correction": 1.0000000241126548,
+          "predicted": 1.0,
+          "absolute_error": 2.4112654761765384e-08,
+          "asserted_tolerance": 2.0964506172839505e-06,
+          "tolerance_refinement_difference": 8.149037000748649e-14,
+          "observed_second_correction": 5.00000009139967,
+          "second_correction_status": "DIAGNOSTIC_ONLY"
+        }
+      ]
+    }
+  ],
+  "critical_log_constant": {
+    "observed": -0.05796575782954827,
+    "exact_formula_value": -0.05796575782920621,
+    "absolute_error": 3.4205971388701073e-13,
+    "asserted_tolerance": 1e-08
+  },
+  "limits": "Finite sampled floating-point checks. Second coefficients are exact symbolic identities but their numerical approach is diagnostic only. No numerical claim to verify contraction or moment PDE theorems."
+}

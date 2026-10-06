@@ -1,0 +1,1 @@
+Original prose and data use CC0-1.0 under the Evidence Press publication protocol. This is a licensing choice, not a claim that the mathematics is correct, novel, independently verified or peer reviewed. Code uses MIT; see LICENSES.md.

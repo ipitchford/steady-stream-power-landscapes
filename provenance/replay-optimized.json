@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "python": "3.14.7",
+  "optimized": true,
+  "pinned_versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.11.2"
+  },
+  "checks": [
+    {
+      "script": "verify.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_structural.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_extensions.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_compatibility.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_nonradial.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_global_bounds.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_negative_controls.py",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Producer-side computational checks, not proof certification or independent reproduction."
+}

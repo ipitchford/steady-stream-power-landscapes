@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "mutation": "torsion",
+      "optimized": false,
+      "rejected": true,
+      "exit_code": 1,
+      "reason": "AssertionError: Verification failed: verify.py:26"
+    },
+    {
+      "mutation": "ellipse",
+      "optimized": false,
+      "rejected": true,
+      "exit_code": 1,
+      "reason": "ValueError: Global residual budget failed"
+    },
+    {
+      "mutation": "missing-degree",
+      "optimized": false,
+      "rejected": true,
+      "exit_code": 1,
+      "reason": "ValueError: Global coverage requires exactly N=2,3,4"
+    },
+    {
+      "mutation": "torsion",
+      "optimized": true,
+      "rejected": true,
+      "exit_code": 1,
+      "reason": "AssertionError: Verification failed: verify.py:26"
+    },
+    {
+      "mutation": "ellipse",
+      "optimized": true,
+      "rejected": true,
+      "exit_code": 1,
+      "reason": "ValueError: Global residual budget failed"
+    },
+    {
+      "mutation": "missing-degree",
+      "optimized": true,
+      "rejected": true,
+      "exit_code": 1,
+      "reason": "ValueError: Global coverage requires exactly N=2,3,4"
+    }
+  ],
+  "scope": "Detects these identity and polynomial corruptions, not arbitrary errors in analytical PDE proofs."
+}

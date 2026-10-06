@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this unrefereed candidate; analytical proof and computational evidence have distinct scopes."
+type: software
+title: "Steady stream-power landscapes: existence, constructive local uniqueness, and singular limits; with a companion channel audit"
+authors:
+  - name: Anonymous
+version: 1.3.0-candidate
+date-released: 2026-10-06
+doi: 10.5281/zenodo.23178664
+url: https://github.com/ipitchford/steady-stream-power-landscapes
+license: CC0-1.0

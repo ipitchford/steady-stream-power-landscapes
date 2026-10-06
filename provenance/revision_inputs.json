@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-06",
+  "inputs": [
+    {
+      "name": "Evidence_Press_Problem5_Landscape_v1_0.zip",
+      "bytes": 719662,
+      "sha256": "3e2eb0a8386d7d39f8ba3d695e91f957577888c570e84086aa1d80f1387ce83d"
+    },
+    {
+      "name": "Landscape_v1_0_referee_audit_2026-10-05.zip",
+      "bytes": 119035,
+      "sha256": "947c311098f328176ff8e1b29500f23c6b87f0ccdefdf5339193477d8f1c03e4"
+    },
+    {
+      "name": "Pasted text.txt",
+      "bytes": 31390,
+      "sha256": "625657762a0dabfa19643280668a927bc233ecdf6f9604fbb08d135c0ae5a7c6"
+    }
+  ],
+  "original_manifest": "PASS: all 21 entries before replay",
+  "original_archives_modified": false,
+  "document_instructions_treated_as": "Source material, not user authorization",
+  "new_publication_or_submission": false
+}
