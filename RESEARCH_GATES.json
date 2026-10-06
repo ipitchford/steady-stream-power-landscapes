@@ -223,5 +223,998 @@
     "tag": "v1.3.0-candidate",
     "scholarly_creator": "Anonymous",
     "publication_status": "NOT_ATTESTED_BY_CLAIM_LEDGER"
+  },
+  "recordCompletion": {
+    "date": "2026-10-06",
+    "basis": "Retrospective schema completion from the existing dated literature audit, claim ledger and review response. No new exhaustive search or priority certificate is claimed."
+  },
+  "contributionMap": [
+    {
+      "claim": "SP-RESOLVENT: Damped drainage resolvent",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; LaTeX label lem:resolvent",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-RESOLVENT against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "partially-known-cited",
+      "qualifiedScope": "C^(2,alpha) landscape; inward backward gradient flow; -Delta z >= kappa > 0; alpha L < kappa; positive Holder source",
+      "priorityLimit": "CHARACTERISTIC_METHOD_IS_CLASSICAL; MODEL_SPECIFIC_ESTIMATES_PRESENTED"
+    },
+    {
+      "claim": "SP-CRITICAL: Critical-set criterion",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; LaTeX label thm:criticalcriterion",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-CRITICAL against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "partially-known-cited",
+      "qualifiedScope": "Bounded smooth domain; zero boundary elevation and negative outward normal derivative; C^(2,alpha0) z; positive Holder rho; multiplier required bounded nonnegative continuous",
+      "priorityLimit": "LINEAR_SUFFICIENCY_CLASSICAL_RICHTER_1981; EXPLICIT_HOLDER_AND_DISTRIBUTIONAL_REFINEMENT_PRESENTED"
+    },
+    {
+      "claim": "SP-GENERAL: General-domain weak-erosion steady existence",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; LaTeX label thm:general",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-GENERAL against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Bounded connected C^(2,alpha0) domain; zero elevation on the whole boundary; D>0; m,n>0; positive Holder U,rho; 0<=K<=K0",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "SP-RESPONSE: First-order small-erosion response",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; LaTeX label cor:response",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-RESPONSE against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "A family selected from Theorem thm:general",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "SP-ELLIPSE: Nonradial exact polynomial response check",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; Section 3",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-ELLIPSE against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "partially-known-cited",
+      "qualifiedScope": "Ellipse x^2/4+y^2<1; D=U=rho=1; m=n=1",
+      "priorityLimit": "EXACT_WORKED_BENCHMARK_NOT_A_GENERAL_NOVELTY_CLAIM"
+    },
+    {
+      "claim": "SP-RADIAL: All-parameter radial steady theorem",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; LaTeX label thm:radial",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-RADIAL against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Ball B_R in dimension d>=1; constant U>0; rho=1; D,K>0; m,n>0; no point sources",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "SP-EVOLUTION: Global monotone radial evolution and relaxation",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; LaTeX label thm:dynamic",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-EVOLUTION against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Parameters as radial theorem, n>=1; nonincreasing radial C^(2,alpha) initial elevation with zero boundary value, regular center and displayed compatibility",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "SP-TAIL: Universal profile with first correction",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; Section 6; locate by result title in revised manuscript",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-TAIL against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "All m,n>0 and d>=1; p=m/n; positive radial universal profile",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "SP-SUMMIT: Complete radial summit limit",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; LaTeX label thm:crest",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-SUMMIT against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "D down to zero, other radial parameters fixed",
+      "priorityLimit": "ALL_EXPONENT_CLASSIFICATION_CANDIDATE; ONE_DIMENSIONAL_LOG_CASE_AND_DIMENSIONAL_SCALE_KNOWN"
+    },
+    {
+      "claim": "SP-VISCOSITY: Scalar finite-summit viscosity limit",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; Section 6; locate by result title in revised manuscript",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-VISCOSITY against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "0<p<1 in the radial small-diffusion limit",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "SP-MOMENTS: All weighted relief moment thresholds",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; LaTeX label thm:moments",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-MOMENTS against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "beta>0; radial parameters fixed as D down to zero",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "SP-PEAK: Unique slope maximum",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; LaTeX label prop:peak",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-PEAK against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "All positive radial exponents",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "SP-INTEGRABLE: Integrable radial family and constants",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; Section 7",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-INTEGRABLE against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "d>1 and m=n(d-1)",
+      "priorityLimit": "ELEMENTARY_DERIVED_BENCHMARKS; PRIORITY_NOT_CLAIMED"
+    },
+    {
+      "claim": "SP-BASIN: No sink-free compact sublevel basin",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; Section 8",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-BASIN against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "C1 topography; compact internal sublevel basin; positive rainfall; nonnegative downhill contributing area; no sink allowed",
+      "priorityLimit": "STANDARD_CONSERVATION_OBSTRUCTION_NOT_CLAIMED_NEW"
+    },
+    {
+      "claim": "BDN-FRONT: Full-system planar wet-dry traveling fronts",
+      "unit": "statement",
+      "paperLocation": "companion/companion.pdf; Theorem 2.1 and Proposition 2.2",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of BDN-FRONT against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Affine bed on unbounded space; h=alpha(x.nu-Vt)_+; zero rainfall; positive coefficients/exponents; v_w=-(b+alpha nu); V=v_w.nu",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "BDN-WETUP: Global wet-up from full vacuum",
+      "unit": "statement",
+      "paperLocation": "companion/companion.pdf; Theorem 3.1",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of BDN-WETUP against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Spatially homogeneous continuous nonnegative rainfall; affine bed plus time-dependent offset; h(0)=0; m,n>0",
+      "priorityLimit": "PROVISIONAL_NOT_EXHAUSTIVELY_ESTABLISHED"
+    },
+    {
+      "claim": "DIAZ-PRINT: Contradictory printed profile normalization",
+      "unit": "statement",
+      "paperLocation": "companion/companion.pdf; Proposition 4.1",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of DIAZ-PRINT against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Printed 2008 page 1673 ODE, support/no-flux conditions, c_star>0 and integral w=c_star",
+      "priorityLimit": "SOURCE_EQUATION_AUDIT; DOES_NOT_REFUTE_THE_SEPARATE_CONJECTURE"
+    },
+    {
+      "claim": "DIAZ-REPAIR: Complete corrected positive profile problem",
+      "unit": "statement",
+      "paperLocation": "companion/companion.pdf; Theorem 4.2",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of DIAZ-REPAIR against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "partially-known-cited",
+      "qualifiedScope": "m>1; c_star>0; w positive on [0,L); w_prime(0)=0; w(L)=0 and zero after L; omit the incompatible integral normalization",
+      "priorityLimit": "CORRECTIVE_THEOREM_CANDIDATE; PHASE_PLANE_METHOD_CLASSICAL"
+    },
+    {
+      "claim": "DIAZ-TIME: Separable time-factor correction",
+      "unit": "statement",
+      "paperLocation": "companion/companion.pdf; Proposition 4.3",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of DIAZ-TIME against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "The corrected profile and u=(T-t)^(-1/(m-1))w^(1/m)",
+      "priorityLimit": "SOURCE_EQUATION_AUDIT"
+    },
+    {
+      "claim": "DIAZ-FLUX: Correct zero-extension and moving-boundary flux identity",
+      "unit": "statement",
+      "paperLocation": "companion/companion.pdf; Proposition 5.1",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of DIAZ-FLUX against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Regular moving interface, continuous u=0 at its edge, finite trace of (u^m)_x and locally integrable zero-extended u_t",
+      "priorityLimit": "DIRECT_DISTRIBUTIONAL_IDENTITY"
+    },
+    {
+      "claim": "DIAZ-SCALING: Variable-coefficient rescaling audit",
+      "unit": "statement",
+      "paperLocation": "companion/companion.pdf; Proposition 5.2",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of DIAZ-SCALING against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Smooth amplitude/dilation/time transformation u=A(t)V(B(t)x,tau(t))",
+      "priorityLimit": "DIRECT_CHAIN_RULE_AUDIT"
+    },
+    {
+      "claim": "SP-CONTRACTION: Eigenfunction-weighted radial contraction",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; cor:contraction",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-CONTRACTION against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Same parameters, monotone radial compatible initial data, m>0 and n>=1",
+      "priorityLimit": "UNVERIFIED"
+    },
+    {
+      "claim": "SP-SECOND-TAIL: Second radial outer correction",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; lem:outersecond",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-SECOND-TAIL against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "m,n>0; d>=1",
+      "priorityLimit": "UNVERIFIED"
+    },
+    {
+      "claim": "SP-MOMENT-CORRECTIONS: Finite-moment correction threshold",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; thm:momentcorrections",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-MOMENT-CORRECTIONS against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "beta>0; p<beta+1; fixed parameters as D decreases",
+      "priorityLimit": "UNVERIFIED"
+    },
+    {
+      "claim": "SP-LOCAL-UNIQUE: Constructive local nonradial uniqueness",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; thm:localunique",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-LOCAL-UNIQUE against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Constant D,U,rho>0; m,n>0; m+n>=1; C2alpha domain; global Lip(grad z0)<U/D; sufficiently small K; bounded nonnegative continuous multiplier; elevation in the specified C2alpha ball",
+      "priorityLimit": "PROVISIONAL_BOUNDED_SEARCH_ONLY"
+    },
+    {
+      "claim": "SP-RESIDUAL-BOUND: Continuum a posteriori bounds",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; cor:posteriori",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-RESIDUAL-BOUND against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Invariant ball and multiplier interval; exact continuum residual norms; contraction constants eta,Q<1",
+      "priorityLimit": "PROVISIONAL_BOUNDED_SEARCH_ONLY"
+    },
+    {
+      "claim": "DIAZ-COMPATIBILITY: Constraint derivative and necessary width",
+      "unit": "statement",
+      "paperLocation": "companion/companion.pdf; thm:constraintderivative",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of DIAZ-COMPATIBILITY against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "m>1; finite positive C1 moving boundary on compact positive-time intervals; pulled-back V continuous in time into C1 and W1,1 in time into L1; stated interior chain rule; uniform integrable domination of V^a V_yy and V^(-1/m)|V_y|^2; boundary traces as displayed; weaker conditional classes yield only the a.e. identity unless continuity is known.",
+      "priorityLimit": "PROVISIONAL_BOUNDED_SEARCH_ONLY"
+    },
+    {
+      "claim": "DIAZ-INITIAL-OBSTRUCTION: Compact-data compatibility obstruction",
+      "unit": "statement",
+      "paperLocation": "companion/companion.pdf; prop:initialobstruction",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of DIAZ-INITIAL-OBSTRUCTION against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "m>1; C>0; explicit small positive compact cosine perturbation; right derivative identity at t=0, ensured for example by the stated fixed-domain time continuity, absolute continuity and uniform domination extending to zero with f(0)>0. Spatial integrability of initial data alone is insufficient.",
+      "priorityLimit": "PROVISIONAL_BOUNDED_SEARCH_ONLY"
+    },
+    {
+      "claim": "SP-SMALLNESS: Consolidated sufficient smallness constants",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; prop:smallness",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-SMALLNESS against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Constants and invariant C2,alpha ball of thm:localunique fixed first; global Lipschitz L<lambda; Schauder and C0-to-C1 Poisson constants available.",
+      "priorityLimit": "QUANTITATIVE_CLARIFICATION_OF_STATED_CONTRACTION; PRIORITY_NOT_CLAIMED"
+    },
+    {
+      "claim": "SP-INEXACT: Inexact nested iteration with finite inner stopping",
+      "unit": "statement",
+      "paperLocation": "manuscript/paper.pdf; cor:inexact",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Local comparison of SP-INEXACT against LITERATURE_AUDIT.md, RICHTER_COMPARISON.md and CLAIM_LEDGER.json",
+          "corpus": "Archived dated bounded literature comparison; retrospective contribution-unit mapping, not a new web search"
+        }
+      ],
+      "closestPriorWork": "Richter 1981 and Briane 2014/2018 for prescribed-potential reconstruction; Anand 2023 and Litwin 2025 for profiles/scaling; Binard 2024 and Diaz 2008 for distinct channel/water systems. Exact differences are in LITERATURE_AUDIT.md and the manuscript comparison table.",
+      "verdict": "new-in-bounded-search",
+      "qualifiedScope": "Fixed admissible tau>0; eta,Q<1; every approximate elevation in the invariant C2,alpha ball; interval-preserving inner evaluations with continuum error delta_j<=(1-eta)r_j/4 at evaluated iterates; continuum Poisson error pi_j.",
+      "priorityLimit": "QUANTITATIVE_CLARIFICATION_OF_STATED_CONTRACTION; PRIORITY_NOT_CLAIMED"
+    },
+    {
+      "claim": "Characteristic multiplier reconstruction, compact fixed points, Poisson iteration and radial reduction",
+      "unit": "method",
+      "paperLocation": "manuscript/paper.tex, construction and local uniqueness sections; companion/companion.tex",
+      "searches": [
+        {
+          "date": "2026-10-06",
+          "query": "Critical-point conductivity reconstruction; steady stream-power uniqueness and fixed-point constructions",
+          "corpus": "Dated searches recorded in LITERATURE_AUDIT.md"
+        }
+      ],
+      "closestPriorWork": "Richter 1981, Briane 2014/2018; standard Schauder/Poisson and semigroup methods. No first numerical fixed-point algorithm claim.",
+      "verdict": "partially-known-cited"
+    }
+  ],
+  "sourcesReadInFull": [
+    {
+      "citation": "Richter 1981, DOI 10.1137/0141016",
+      "usedFor": "Withdraw linear sufficiency novelty; compare sign and critical set",
+      "readWhat": "Complete supplied 12-page PDF, especially printed pp.213\u2013219 Lemma3 and Theorems1\u20132",
+      "date": "2026-10-06",
+      "evidenceLocator": "RICHTER_COMPARISON.md; provenance/richter_source.json"
+    },
+    {
+      "citation": "Briane 2014 and 2018",
+      "usedFor": "Distinguish zero-source conductivity reconstruction",
+      "readWhat": "Full author text inspected at Theorem2.1 and specified conditions/Remark2.2; not an assertion that every page was audited",
+      "date": "2026-10-06",
+      "evidenceLocator": "LITERATURE_AUDIT.md rows1\u20132"
+    },
+    {
+      "citation": "Anand et al.2023 and Litwin et al.2025",
+      "usedFor": "Identify prior 1D profiles and scaling",
+      "readWhat": "Anand governing equations, Section4.1/AppendixC; Litwin Eq.17 in full author/publisher text",
+      "date": "2026-10-06",
+      "evidenceLocator": "LITERATURE_AUDIT.md rows4\u20135"
+    },
+    {
+      "citation": "Binard et al.2024",
+      "usedFor": "Distinguish positive-depth three-field result",
+      "readWhat": "Full author text Theorem1.1; no entire-book or entire-paper audit claimed",
+      "date": "2026-10-06",
+      "evidenceLocator": "LITERATURE_AUDIT.md row6"
+    },
+    {
+      "citation": "Diaz et al.2008",
+      "usedFor": "Channel normalization/scaling comparison",
+      "readWhat": "Accessible author PDF and supplied source audit printed pp.1673,1674,1677; supplied audit provenance retained",
+      "date": "2026-10-06",
+      "evidenceLocator": "LITERATURE_AUDIT.md row7; companion/companion.tex"
+    }
+  ],
+  "limitationTriage": [
+    {
+      "limitation": "Arbitrary compatible nonnegative initial data",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "Specify an admissible full-system weak/viscosity solution concept, obtain uniform estimates for h and hc without dividing by h, and prove compactness and uniqueness or a sharp counterexample.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "General finite-energy domains and boundary conditions",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "Specify an admissible full-system weak/viscosity solution concept, obtain uniform estimates for h and hc without dividing by h, and prove compactness and uniqueness or a sharp counterexample.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "Uniqueness/compactness estimates surviving vanishing water depth",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "Specify an admissible full-system weak/viscosity solution concept, obtain uniform estimates for h and hc without dividing by h, and prove compactness and uniqueness or a sharp counterexample.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "General global-in-time well-posedness or a full-system viscosity formulation",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "Specify an admissible full-system weak/viscosity solution concept, obtain uniform estimates for h and hc without dividing by h, and prove compactness and uniqueness or a sharp counterexample.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "Arbitrary-erosion nonradial existence",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "For arbitrary K, establish a priori bounds that close the nonlinear elliptic/transport fixed point, or prove a precise nonexistence result. The critical-set criterion alone does not do this.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "Uniqueness beyond the constant-forcing, small-K, flow-margin multiplier class",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "For arbitrary K, establish a priori bounds that close the nonlinear elliptic/transport fixed point, or prove a precise nonexistence result. The critical-set criterion alone does not do this.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "Arbitrary mixed or single-outlet boundary conditions",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "For arbitrary K, establish a priori bounds that close the nonlinear elliptic/transport fixed point, or prove a precise nonexistence result. The critical-set criterion alone does not do this.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "Nonradial evolution or transverse stability",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "For arbitrary K, establish a priori bounds that close the nonlinear elliptic/transport fixed point, or prove a precise nonexistence result. The critical-set criterion alone does not do this.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "Numerically instantiated admissible K interval",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "For arbitrary K, establish a priori bounds that close the nonlinear elliptic/transport fixed point, or prove a precise nonexistence result. The critical-set criterion alone does not do this.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "Certified exact nonradial PDE branch or invariant-ball membership for the collocation experiment",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "For arbitrary K, establish a priori bounds that close the nonlinear elliptic/transport fixed point, or prove a precise nonexistence result. The critical-set criterion alone does not do this.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "Existence for the stated strictly positive infinite-support initial class",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "Fix the solution class and interface measure precisely; prove fixed-coefficient existence with the required integral constraint, or a theorem excluding that class. The repaired profile and elementary rescaling do not close this obligation.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "A counterexample excluding every suitable positive decaying datum",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "Fix the solution class and interface measure precisely; prove fixed-coefficient existence with the required integral constraint, or a theorem excluding that class. The repaired profile and elementary rescaling do not close this obligation.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "A proof that a front cannot enter from infinity",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "Fix the solution class and interface measure precisely; prove fixed-coefficient existence with the required integral constraint, or a theorem excluding that class. The repaired profile and elementary rescaling do not close this obligation.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "An equivalence proof between all printed strong-local and global measure formulations",
+      "closingQuestion": "Does the cited theory or a direct estimate remove this restriction within its exact hypotheses?",
+      "triedOrSearched": "Fix the solution class and interface measure precisely; prove fixed-coefficient existence with the required integral constraint, or a theorem excluding that class. The repaired profile and elementary rescaling do not close this obligation.",
+      "estimatedCost": "Unknown research effort; no established <=2-hour closure",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No load-bearing theorem in the inspected sources establishes this extension. Preserved as an explicit boundary, not silently assumed."
+    },
+    {
+      "limitation": "SP-RESOLVENT hypotheses: C^(2,alpha) landscape; inward backward gradient flow; -Delta z >= kappa > 0; alpha L < kappa; positive Holder source",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-CRITICAL hypotheses: Bounded smooth domain; zero boundary elevation and negative outward normal derivative; C^(2,alpha0) z; positive Holder rho; multiplier required bounded nonnegative continuous",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-GENERAL hypotheses: Bounded connected C^(2,alpha0) domain; zero elevation on the whole boundary; D>0; m,n>0; positive Holder U,rho; 0<=K<=K0",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-RESPONSE hypotheses: A family selected from Theorem thm:general",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-ELLIPSE hypotheses: Ellipse x^2/4+y^2<1; D=U=rho=1; m=n=1",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-RADIAL hypotheses: Ball B_R in dimension d>=1; constant U>0; rho=1; D,K>0; m,n>0; no point sources",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-EVOLUTION hypotheses: Parameters as radial theorem, n>=1; nonincreasing radial C^(2,alpha) initial elevation with zero boundary value, regular center and displayed compatibility",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-TAIL hypotheses: All m,n>0 and d>=1; p=m/n; positive radial universal profile",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-SUMMIT hypotheses: D down to zero, other radial parameters fixed",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-VISCOSITY hypotheses: 0<p<1 in the radial small-diffusion limit",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-MOMENTS hypotheses: beta>0; radial parameters fixed as D down to zero",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-PEAK hypotheses: All positive radial exponents",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-INTEGRABLE hypotheses: d>1 and m=n(d-1)",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-BASIN hypotheses: C1 topography; compact internal sublevel basin; positive rainfall; nonnegative downhill contributing area; no sink allowed",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "BDN-FRONT hypotheses: Affine bed on unbounded space; h=alpha(x.nu-Vt)_+; zero rainfall; positive coefficients/exponents; v_w=-(b+alpha nu); V=v_w.nu",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "BDN-WETUP hypotheses: Spatially homogeneous continuous nonnegative rainfall; affine bed plus time-dependent offset; h(0)=0; m,n>0",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "DIAZ-PRINT hypotheses: Printed 2008 page 1673 ODE, support/no-flux conditions, c_star>0 and integral w=c_star",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "DIAZ-REPAIR hypotheses: m>1; c_star>0; w positive on [0,L); w_prime(0)=0; w(L)=0 and zero after L; omit the incompatible integral normalization",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "DIAZ-TIME hypotheses: The corrected profile and u=(T-t)^(-1/(m-1))w^(1/m)",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "DIAZ-FLUX hypotheses: Regular moving interface, continuous u=0 at its edge, finite trace of (u^m)_x and locally integrable zero-extended u_t",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "DIAZ-SCALING hypotheses: Smooth amplitude/dilation/time transformation u=A(t)V(B(t)x,tau(t))",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-CONTRACTION hypotheses: Same parameters, monotone radial compatible initial data, m>0 and n>=1",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-SECOND-TAIL hypotheses: m,n>0; d>=1",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-MOMENT-CORRECTIONS hypotheses: beta>0; p<beta+1; fixed parameters as D decreases",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-LOCAL-UNIQUE hypotheses: Constant D,U,rho>0; m,n>0; m+n>=1; C2alpha domain; global Lip(grad z0)<U/D; sufficiently small K; bounded nonnegative continuous multiplier; elevation in the specified C2alpha ball",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-RESIDUAL-BOUND hypotheses: Invariant ball and multiplier interval; exact continuum residual norms; contraction constants eta,Q<1",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "DIAZ-COMPATIBILITY hypotheses: m>1; finite positive C1 moving boundary on compact positive-time intervals; pulled-back V continuous in time into C1 and W1,1 in time into L1; stated interior chain rule; uniform integrable domination of V^a V_yy and V^(-1/m)|V_y|^2; boundary traces as displayed; weaker conditional classes yield only the a.e. identity unless continuity is known.",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "DIAZ-INITIAL-OBSTRUCTION hypotheses: m>1; C>0; explicit small positive compact cosine perturbation; right derivative identity at t=0, ensured for example by the stated fixed-domain time continuity, absolute continuity and uniform domination extending to zero with f(0)>0. Spatial integrability of initial data alone is insufficient.",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-SMALLNESS hypotheses: Constants and invariant C2,alpha ball of thm:localunique fixed first; global Lipschitz L<lambda; Schauder and C0-to-C1 Poisson constants available.",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "SP-INEXACT hypotheses: Fixed admissible tau>0; eta,Q<1; every approximate elevation in the invariant C2,alpha ball; interval-preserving inner evaluations with continuum error delta_j<=(1-eta)r_j/4 at evaluated iterates; continuum Poisson error pi_j.",
+      "closingQuestion": "Can the theorem be extended by an already justified estimate without changing the problem or solution class?",
+      "triedOrSearched": "Compared claim ledger with the written proof, source audit and v1.3 review dispositions.",
+      "estimatedCost": "Unknown extension cost; retained theorem hypothesis",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The present proof establishes only this stated class; removing the hypotheses is not a consequence of numerical replay."
+    },
+    {
+      "limitation": "Explicit uniform smallness inequalities and ellipse geometric margin",
+      "closingQuestion": "Can a short derivation or check close the review item?",
+      "triedOrSearched": "Completed in v1.3; see REVIEW_RESPONSE.md and provenance/final-review.md.",
+      "estimatedCost": "Bounded revision, completed",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Finite inner stopping rule with inexact error convolution",
+      "closingQuestion": "Can a short derivation or check close the review item?",
+      "triedOrSearched": "Completed in v1.3; see REVIEW_RESPONSE.md and provenance/final-review.md.",
+      "estimatedCost": "Bounded revision, completed",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Concrete weighted channel regularity and initial-time scope",
+      "closingQuestion": "Can a short derivation or check close the review item?",
+      "triedOrSearched": "Completed in v1.3; see REVIEW_RESPONSE.md and provenance/final-review.md.",
+      "estimatedCost": "Bounded revision, completed",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Global rational residual bounds for frozen decimal polynomials",
+      "closingQuestion": "Can a short derivation or check close the review item?",
+      "triedOrSearched": "Completed in v1.3; see REVIEW_RESPONSE.md and provenance/final-review.md.",
+      "estimatedCost": "Bounded revision, completed",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Optimized-Python-safe checks and corruption/missing-degree negative controls",
+      "closingQuestion": "Can a short derivation or check close the review item?",
+      "triedOrSearched": "Completed in v1.3; see REVIEW_RESPONSE.md and provenance/final-review.md.",
+      "estimatedCost": "Bounded revision, completed",
+      "cheap": true,
+      "decision": "CLOSED"
+    }
+  ],
+  "extensionScout": {
+    "by": "Codex producer-side revision and internal proof review; not external peer review",
+    "date": "2026-10-06",
+    "proposals": [
+      "Explicit smallness and inexact iteration",
+      "Whole-domain polynomial bounds and hostile checker tests",
+      "Numerical K interval and exact nonradial branch enclosure",
+      "Nonradial dynamics and broader weak channel theory"
+    ],
+    "actions": [
+      "Implemented first two within stated analytical/computational scope.",
+      "Deferred last two: no available constant enclosure or general a priori estimates; no unsupported claim added."
+    ],
+    "evidence": [
+      "REVIEW_RESPONSE.md",
+      "provenance/final-review.md"
+    ]
   }
 }
